@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg,#459bd4,#d32faa);
+  }
+
+h1 {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(99, 104, 104, 0.514);
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.menu ul li a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: black;
+    background-color: rgba(255,242,1,255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-family: Georgia, serif; 
+    font-size: 20px;
+    text-align: center;
+}
+
+.tierlist {
+    width: 600px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-size: large;
+    position: relative;
+}
+
+.tierlist tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.tierlist th {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.tierlist td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.tierlist img {
+    padding: 5px;
+}
